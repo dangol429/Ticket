@@ -1,0 +1,28 @@
+.login-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+    gap: 8rem;
+}
+
+h2 {
+    font-size: 3rem;
+    color:white;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+ #username, #password {
+    padding: 2rem 5rem;
+    background: transparent;
+    border: 2px solid var(--color-bg);
+ }
+ .login-container p {
+    font-size: 10px;
+    color: var(--color-light);
+ }
+ #forgot {
+    color: red;
+ }
